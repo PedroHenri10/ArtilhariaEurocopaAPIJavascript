@@ -47,15 +47,15 @@ body::after{
     justify-content: end;
     height: 1.8rem;
     width: 100%;
-    background-color: #2b2c36;
+    background-color: #22232b;
 }
 
 select{
     margin-right: 0.8rem;
     padding: 0.2rem;
     border-radius: 8px;
-    background-color: #2836fa;
-    color: white;
+    background-color: #a3ceec;
+    color: black;
     outline: none;
 }
 
@@ -65,4 +65,27 @@ select{
     align-items: center;
     padding: 0.6rem;
     height: 12rem;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.cabecalho-header{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.cabecalho-header, table{
+    width: 85%;
+}
+
+select.language-select, .cabecalho-header, thead{
+    background-color: #004ea0;
+    color: white;
 }
