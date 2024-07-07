@@ -82,28 +82,25 @@ main{
     font-size: 1.1rem;
 }
 
-.cabecalho-header{
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    padding: 0.3rem;
-    border-top-left-radius: .4rem;
-    border-top-right-radius: .4rem;
-}
-
-.cabecalho-header, table{
+table{
     width: 85%;
 }
 
-select.language-select, .cabecalho-header, thead{
+thead{
     background-color: #004ea0;
-    color: white;
 }
 
 table{
     border-collapse: collapse;
     padding: 1.5rem;
     box-shadow: 0 1rem 2rem -1rem rgba(0, 0, 0, 0.3);
+}
+
+th.cabecalho-table{
+    text-align: end;
+    padding: 0.3rem;
+    border-top-left-radius: .4rem;
+    border-top-right-radius: .4rem;
 }
 
 table tr:nth-child(){
