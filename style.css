@@ -58,7 +58,7 @@ body::after{
 }
 
 select.language-select{
-    background-color: var(--primary-color);
+    background-color: #22232b;
     color: white;
 }
 
