@@ -6,6 +6,7 @@
       "editions": [
         {
           "year": 2024,
+          "champion": "Spain",
           "topScorers": [
             {
               "classification": 1,
@@ -92,6 +93,7 @@
         },
         {
           "year": 2020,
+          "champion": "Italy",
           "topScorers": [
             {
               "classification": 1,
@@ -178,36 +180,37 @@
         },
         {
           "year": 2016,
+          "champion": "Portugal",
           "topScorers": [
             {
               "classification": 1,
-              "player": "Jamal Musiala",
-              "position": "",
-              "team": "bayern de munique",
-              "country": "Alemanha",
-              "goals": 3, 
-              "assistance": ,
-              "games": 
+              "player": "Antoine Griezmann",
+              "position": "ATA",
+              "team": "atletico de madrid",
+              "country": "France",
+              "goals": 6, 
+              "assistance": 2,
+              "games": 7
             },
             {
               "classification": 2,
-    "player": "Ivan Schranz",
-    "position": "Atacante",
-    "team": "Slovan Bratislava",
-    "country": "Eslováquia",
-    "goals": 2,
-    "assistances": 1,
-    "games": 4
+              "player": "Cristiano Ronaldo",
+              "position": "ATA",
+              "team": "Real Madrid",
+              "country": "Portugal",
+              "goals": 3,
+              "assistances": 2,
+              "games": 7
             },    
             {
-  "classification": 3,
-  "player": "",
-    "position": "",
-  "team": "",
-  "country": "",
-  "goals": 0,
-  "assistance": 0,
-  "games": 0 
+              "classification": 3,
+              "player": "",
+              "position": "",
+              "team": "",
+              "country": "",
+              "goals": 0,
+              "assistance": 0,
+              "games": 0 
             },
             {
               "classification": 4,
@@ -269,6 +272,7 @@
       "editions": [
         {
           "year": 2024,
+          "champion": "Argentina",
           "topScorers": [
               {
                 "classification": 1,
@@ -344,6 +348,7 @@
         },
         {
           "year": 2021,
+          "champion": "Argentina",
           "topScorers": [
               {
                 "classification": 1,
@@ -419,6 +424,7 @@
         },
         {
           "year": 2019,
+          "champion": "Brasil",
           "topScorers": [
              {
                "classification": 1,
@@ -494,6 +500,7 @@
         },
         {
           "year": 2016,
+          "champion": "Chile",
           "topScorers": [
              {
                "classification": 1,
@@ -570,3 +577,4 @@
       ]
     }
   ]
+}
