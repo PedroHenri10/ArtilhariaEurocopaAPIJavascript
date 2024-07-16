@@ -204,63 +204,63 @@
             },    
             {
               "classification": 3,
-              "player": "",
-              "position": "",
-              "team": "",
-              "country": "",
-              "goals": 0,
+              "player": "Álvaro Morata",
+              "position": "ATA",
+              "team": "Juventus",
+              "country": "Spain",
+              "goals": 3,
               "assistance": 0,
-              "games": 0 
+              "games": 4
             },
             {
               "classification": 4,
-              "player": "",
-              "position": "",
-              "team": "",
-              "country": "",
-              "goals": 0,
+              "player": "Gareth Bale",
+              "position": "PD",
+              "team": "Real Madrid",
+              "country": "Wales",
+              "goals": 3,
               "assistance": 0,
-              "games": 0 
+              "games": 6
             },
             {
               "classification": 5,
-              "player": "",
-              "position": "",
-              "team": "",
-              "country": "",
-              "goals": 0,
+              "player": "Olivier Giroud",
+              "position": "ATA",
+              "team": "Arsenal",
+              "country": "France",
+              "goals": 3,
               "assistance": 0,
-              "games": 0
+              "games": 6
            },
            {
               "classification": 6,
-              "player": "",
-              "position": "",
-              "team": "",
-              "country": "",
-              "goals": 0,
-              "assistance": 0,
-              "games": 0 
+              "player": "Nani",
+              "position": "PE",
+              "team": "Fenerbahce",
+              "country": "Portugal",
+              "goals": 3,
+              "assistance": 1,
+              "games": 7
             },
             {
               "classification": 7,
-              "player": "",
-              "position": "",
-              "team": "",
-              "country": "",
-              "goals": 0,
-              "assistance": 0,
-              "games": 0 
+              "player": "Dimitri Payet",
+              "position": "PE",
+              "team": "West-Ham",
+              "country": "France",
+              "goals": 3,
+              "assistance": 2,
+              "games": 7
             },
             {
               "classification": 8,
-              "player": "",
-              "position": "",
-              "team": "",
-              "country": "",
-              "goals": 0,
+              "player": "Graziano Pellè",
+              "position": "SOUTHAMPTON",
+              "team": "ATA",
+              "country": "Italy",
+              "goals": 2,
               "assistance": 0,
-              "games": 0 
+              "games": 4
             }
           ]
         }
@@ -276,73 +276,73 @@
           "topScorers": [
               {
                 "classification": 1,
-                "player": "Jamal Musiala",
-                "position": "",
-                "team": "bayern de munique",
-                "country": "Alemanha",
-                "goals": 3, 
+                "player": "Lautaro Martinez",
+                "position": "ATA",
+                "team": "Inter de Milão",
+                "country": "Argentina",
+                "goals": 5, 
                 "assistance": 0,
-                "games": 0
+                "games": 6
               },
               {
                 "classification": 2,
-                "player": "Ivan Schranz",
-                "position": "Atacante",
-                "team": "Slovan Bratislava",
-                "country": "Eslováquia",
-                "goals": 2,
+                "player": "Salomón Rondón",
+                "position": "ATA",
+                "team": "Pachuca",
+                "country": "Venezuela",
+                "goals": 3,
                 "assistances": 1,
                 "games": 4
               },    
               {
                 "classification": 3,
-                "player": "",
-                "position": "",
-                "team": "",
-                "country": "",
-                "goals": 0,
+                "player": "Luis Diaz",
+                "position": "PE",
+                "team": "Liverpool",
+                "country": "Colombian",
+                "goals": 2,
                 "assistance": 0,
-                "games": 0 
+                "games": 6
               },
               {
                 "classification": 4,
-                "player": "",
-                "position": "",
-                "team": "",
-                "country": "",
-                "goals": 0,
+                "player": "Darwin Nuñez",
+                "position": "ATA",
+                "team": "Liverpool",
+                "country": "Uruguay",
+                "goals": 2,
                 "assistance": 0,
-                "games": 0 
+                "games": 6
               },
               {
                 "classification": 5,
-                "player": "",
-                "position": "",
-                "team": "",
-                "country": "",
-                "goals": 0,
+                "player": "Vinicius Junior",
+                "position": "PE",
+                "team": "Real Madrid",
+                "country": "Brasil",
+                "goals": 2,
                 "assistance": 0,
-                "games": 0
+                "games": 3
               },
               {
                 "classification": 6,
-                "player": "",
-                "position": "",
-                "team": "",
-                "country": "",
-                "goals": 0,
-                "assistance": 0,
-                "games": 0 
+                "player": "Jhon Córdoba",
+                "position": "ATA",
+                "team": "Krasnodar",
+                "country": "Colombian",
+                "goals": 2,
+                "assistance": 1,
+                "games": 6
               },
               {
                 "classification": 7,
-                "player": "",
-                "position": "",
-                "team": "",
-                "country": "",
-                "goals": 0,
+                "player": "Julián Álvarez",
+                "position": "ATA",
+                "team": "Man City",
+                "country": "Argentina",
+                "goals": 2,
                 "assistance": 0,
-                "games": 0 
+                "games": 5 
               }
           ]
         },
