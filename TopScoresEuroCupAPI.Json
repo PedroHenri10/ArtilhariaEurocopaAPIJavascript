@@ -1,1 +1,612 @@
-
+{
+  "competitions": [
+    {
+      "id": 1,
+      "name": "Eurocopa",
+      "editions": [
+        {
+          "year": 2024,
+          "topScorers": [
+            {
+              "classification": 1,
+              "player": "Jamal Musiala",
+              "position": "",
+              "team": "bayern de munique",
+              "country": "Alemanha",
+              "goals": 3, 
+              "assistance": ,
+              "games": , 
+            },
+            {
+              "classification": 2,
+    "player": "Ivan Schranz",
+    "position": "Atacante",
+    "team": "Slovan Bratislava",
+    "country": "Eslováquia",
+    "goals": 2,
+    "assistances": 1,
+    "games": 4
+            },    
+            {
+  "classification": 3,
+  "player": "Dani Olmo",
+  "position": "",
+  "team": "",
+  "country": "Espanha",
+  "goals": 0,
+  "assistance": 0,
+  "games": 0 
+            },
+            {
+              classification": 4,
+  "player": "Georges Mikautadze",
+  "position": "",
+  "team": "",
+  "country": "Geórgia",
+  "goals": 0,
+  "assistance": 0,
+  "games": 0 
+            },
+            {
+  "classification": 5,
+  "player": "Cody Gakpo",
+  "position": "",
+  "team": "",
+  "country": "Holanda",
+  "goals": 0,
+  "assistance": 0,
+  "games": 0 
+            },
+            {
+              classification": 6,
+  "player": "Harry Kane",
+  "position": "",
+  "team": "",
+  "country": "Inglaterra",
+  "goals": 0,
+  "assistance": 0,
+  "games": 0 
+            },
+            {
+  "classification": 7,
+  "player": "",
+  "position": "",
+  "team": "",
+  "country": "",
+  "goals": 0,
+  "assistance": 0,
+  "games": 0 
+            },
+            {
+              classification": 8,
+  "player": "",
+    "position": "",
+  "team": "",
+  "country": "",
+  "goals": 0,
+  "assistance": 0,
+  "games": 0 
+            },
+          ]
+          
+        },
+        {
+          "year": 2020,
+          "topScorers": [
+                       {
+              "classification": 1,
+              "player": "Jamal Musiala",
+              "position": "",
+              "team": "bayern de munique",
+              "country": "Alemanha",
+              "goals": 3, 
+              "assistance": ,
+              "games": , 
+            },
+            {
+              "classification": 2,
+    "player": "Ivan Schranz",
+    "position": "Atacante",
+    "team": "Slovan Bratislava",
+    "country": "Eslováquia",
+    "goals": 2,
+    "assistances": 1,
+    "games": 4
+            },    
+            {
+  "classification": 3,
+  "player": "",
+    "position": "",
+  "team": "",
+  "country": "",
+  "goals": 0,
+  "assistance": 0,
+  "games": 0 
+            },
+            {
+              classification": 4,
+  "player": "",
+  "position": "",
+  "team": "",
+  "country": "",
+  "goals": 0,
+  "assistance": 0,
+  "games": 0 
+            },
+            {
+  "classification": 5,
+  "player": "",
+  "position": "",
+  "team": "",
+  "country": "",
+  "goals": 0,
+  "assistance": 0,
+  "games": 0
+           },
+           {
+              classification": 6,
+  "player": "",
+  "position": "",
+  "team": "",
+  "country": "",
+  "goals": 0,
+  "assistance": 0,
+  "games": 0 
+            },
+            {
+  "classification": 7,
+  "player": "",
+  "position": "",
+  "team": "",
+  "country": "",
+  "goals": 0,
+  "assistance": 0,
+  "games": 0 
+            },
+            {
+              classification": 8,
+  "player": "",
+  "position": "",
+  "team": "",
+  "country": "",
+  "goals": 0,
+  "assistance": 0,
+  "games": 0 
+            },
+          ]
+          
+        },
+        {
+          "year": 2016,
+          "topScorers": [
+            {
+              "classification": 1,
+              "player": "Jamal Musiala",
+              "position": "",
+              "team": "bayern de munique",
+              "country": "Alemanha",
+              "goals": 3, 
+              "assistance": ,
+              "games": , 
+            },
+            {
+              "classification": 2,
+    "player": "Ivan Schranz",
+    "position": "Atacante",
+    "team": "Slovan Bratislava",
+    "country": "Eslováquia",
+    "goals": 2,
+    "assistances": 1,
+    "games": 4
+            },    
+            {
+  "classification": 3,
+  "player": "",
+    "position": "",
+  "team": "",
+  "country": "",
+  "goals": 0,
+  "assistance": 0,
+  "games": 0 
+            },
+            {
+              classification": 4,
+  "player": "",
+  "position": "",
+  "team": "",
+  "country": "",
+  "goals": 0,
+  "assistance": 0,
+  "games": 0 
+            },
+            {
+  "classification": 5,
+  "player": "",
+  "position": "",
+  "team": "",
+  "country": "",
+  "goals": 0,
+  "assistance": 0,
+  "games": 0
+           },
+           {
+              classification": 6,
+  "player": "",
+  "position": "",
+  "team": "",
+  "country": "",
+  "goals": 0,
+  "assistance": 0,
+  "games": 0 
+            },
+            {
+  "classification": 7,
+  "player": "",
+  "position": "",
+  "team": "",
+  "country": "",
+"goals": 0,
+  "assistance": 0,
+  "games": 0 
+            },
+            {
+              classification": 8,
+  "player": "",
+  "position": "",
+  "team": "",
+  "country": "",
+  "goals": 0,
+  "assistance": 0,
+  "games": 0 
+            },
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Copa América",
+      "editions": [
+        {
+          "year": 2024,
+          "topScorers": [
+              {
+                "classification": 1,
+                "player": "Jamal Musiala",
+                "position": "",
+                "team": "bayern de munique",
+                "country": "Alemanha",
+                "goals": 3, 
+                "assistance": ,
+                "games": , 
+              },
+              {
+                "classification": 2,
+              "player": "Ivan Schranz",
+              "position": "Atacante",
+              "team": "Slovan Bratislava",
+              "country": "Eslováquia",
+              "goals": 2,
+              "assistances": 1,
+              "games": 4
+              },    
+              {
+              "classification": 3,
+              "player": "",
+              "position": "",
+              "team": "",
+              "country": "",
+              "goals": 0,
+              "assistance": 0,
+              "games": 0 
+              },
+              {
+                classification": 4,
+              "player": "",
+              "position": "",
+              "team": "",
+              "country": "",
+              "goals": 0,
+              "assistance": 0,
+              "games": 0 
+              },
+              {
+              "classification": 5,
+              "player": "",
+              "position": "",
+              "team": "",
+              "country": "",
+              "goals": 0,
+              "assistance": 0,
+              "games": 0
+              },
+              {
+                classification": 6,
+              "player": "",
+              "position": "",
+              "team": "",
+              "country": "",
+              "goals": 0,
+              "assistance": 0,
+              "games": 0 
+              },
+              {
+              "classification": 7,
+              "player": "",
+              "position": "",
+              "team": "",
+              "country": "",
+              "goals": 0,
+              "assistance": 0,
+              "games": 0 
+              },
+              {
+                classification": 8,
+              "player": "",
+              "position": "",
+              "team": "",
+              "country": "",
+              "goals": 0,
+              "assistance": 0,
+              "games": 0 
+              },
+          ]
+        },
+        {
+          "year": 2021,
+          "topScorers": [
+              {
+                "classification": 1,
+                "player": "Jamal Musiala",
+                "position": "",
+                "team": "bayern de munique",
+                "country": "Alemanha",
+                "goals": 3, 
+                "assistance": ,
+                "games": , 
+              },
+              {
+                "classification": 2,
+              "player": "Ivan Schranz",
+              "position": "Atacante",
+              "team": "Slovan Bratislava",
+              "country": "Eslováquia",
+              "goals": 2,
+              "assistances": 1,
+              "games": 4
+              },    
+              {
+              "classification": 3,
+              "player": "",
+              "position": "",
+              "team": "",
+              "country": "",
+              "goals": 0,
+              "assistance": 0,
+              "games": 0 
+              },
+              {
+                classification": 4,
+              "player": "",
+              "position": "",
+              "team": "",
+              "country": "",
+              "goals": 0,
+              "assistance": 0,
+              "games": 0 
+              },
+              {
+              "classification": 5,
+              "player": "",
+              "position": "",
+              "team": "",
+              "country": "",
+              "goals": 0,
+              "assistance": 0,
+              "games": 0
+              },
+              {
+                classification": 6,
+              "player": "",
+              "position": "",
+              "team": "",
+              "country": "",
+              "goals": 0,
+              "assistance": 0,
+              "games": 0 
+              },
+              {
+              "classification": 7,
+              "player": "",
+              "position": "",
+              "team": "",
+              "country": "",
+              "goals": 0,
+              "assistance": 0,
+              "games": 0 
+              },
+              {
+                classification": 8,
+              "player": "",
+              "position": "",
+              "team": "",
+              "country": "",
+              "goals": 0,
+              "assistance": 0,
+              "games": 0 
+              },
+          ]
+        },
+        {
+          "year": 2019,
+          "topScorers": [
+             {
+               "classification": 1,
+                              "player": "Jamal Musiala",
+               "position": "",
+               "team": "bayern de munique",
+               "country": "Alemanha",
+               "goals": 3, 
+               "assistance": ,
+               "games": , 
+             },
+             {
+               "classification": 2,
+             "player": "Ivan Schranz",
+             "position": "Atacante",
+             "team": "Slovan Bratislava",
+             "country": "Eslováquia",
+             "goals": 2,
+             "assistances": 1,
+             "games": 4
+             },    
+             {
+             "classification": 3,
+             "player": "",
+             "position": "",
+             "team": "",
+             "country": "",
+             "goals": 0,
+             "assistance": 0,
+             "games": 0 
+             },
+             {
+               classification": 4,
+             "player": "",
+             "position": "",
+             "team": "",
+             "country": "",
+             "goals": 0,
+             "assistance": 0,
+             "games": 0 
+             },
+             {
+             "classification": 5,
+             "player": "",
+             "position": "",
+             "team": "",
+             "country": "",
+             "goals": 0,
+             "assistance": 0,
+             "games": 0
+             },
+             {
+               classification": 6,
+             "player": "",
+             "position": "",
+             "team": "",
+             "country": "",
+             "goals": 0,
+             "assistance": 0,
+             "games": 0 
+             },
+             {
+             "classification": 7,
+             "player": "",
+             "position": "",
+             "team": "",
+             "country": "",
+             "goals": 0,
+             "assistance": 0,
+             "games": 0 
+             },
+             {
+               classification": 8,
+             "player": "",
+             "position": "",
+             "team": "",
+             "country": "",
+             "goals": 0,
+             "assistance": 0,
+             "games": 0 
+             },
+          ]
+        },
+        {
+          "year": 2016,
+          "topScorers": [
+             {
+               "classification": 1,
+               "player": "Jamal Musiala",
+               "position": "",
+               "team": "bayern de munique",
+               "country": "Alemanha",
+               "goals": 3, 
+               "assistance": ,
+               "games": , 
+             },
+             {
+               "classification": 2,
+             "player": "Ivan Schranz",
+             "position": "Atacante",
+             "team": "Slovan Bratislava",
+             "country": "Eslováquia",
+             "goals": 2,
+             "assistances": 1,
+             "games": 4
+             },    
+             {
+             "classification": 3,
+             "player": "",
+             "position": "",
+             "team": "",
+             "country": "",
+             "goals": 0,
+             "assistance": 0,
+             "games": 0 
+             },
+             {
+               classification": 4,
+             "player": "",
+             "position": "",
+             "team": "",
+             "country": "",
+             "goals": 0,
+             "assistance": 0,
+             "games": 0 
+             },
+             {
+             "classification": 5,
+             "player": "",
+             "position": "",
+             "team": "",
+             "country": "",
+             "goals": 0,
+             "assistance": 0,
+             "games": 0
+             },
+             {
+               classification": 6,
+             "player": "",
+             "position": "",
+             "team": "",
+             "country": "",
+             "goals": 0,
+             "assistance": 0,
+             "games": 0 
+             },
+             {
+             "classification": 7,
+             "player": "",
+             "position": "",
+             "team": "",
+             "country": "",
+             "goals": 0,
+             "assistance": 0,
+             "games": 0 
+             },
+             {
+               classification": 8,
+             "player": "",
+             "position": "",
+             "team": "",
+             "country": "",
+             "goals": 0,
+             "assistance": 0,
+             "games": 0 
+             },
+          ]
+        }
+      ]
+    }
+  ]
