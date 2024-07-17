@@ -33,12 +33,6 @@ fetch("TopScoresEuroCupAPI.json")
         assistsCell.textContent = artilheiro.assists;
         gamesCell.textContent = artilheiro.games;
 
-        if(classificationCell.textContent === '' &&
-          playerCell.textContent === '' && positionCell.textContent === '' && teamCell.textContent === ''&& countryCell.textContent === '' && goalsCell.textContent === ''
-        && assistsCell.textContent === '' && gamesCell.textContent === ''){
-          row.style.display = 'none';
-        }
-
     });
   } else {
     console.error("Erro: A edição de 2024 não foi encontrada no JSON ou não tem dados de artilheiros.");
