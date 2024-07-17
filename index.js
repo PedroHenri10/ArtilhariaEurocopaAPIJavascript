@@ -5,24 +5,22 @@ fetch("TopScoresEuroCupAPI.json")
   .then(response => response.json())
   .then(data => {
     
-    //tablebody.innerHTML = ''; 
+    tablebody.innerHTML = ''; 
     
     const artilheiros = data.competitions[0].editions.find(edition => edition.year === 2024).topScorers;
 
-    if (artilheiros && Array.isArray(artilheiros)) {
-    let row;
     artilheiros.forEach((artilheiro, index) => { 
 
-      row = tablebody.querySelectorAll('tr')[index];
-
-        const classificationCell = row.querySelectorAll('td')[0];
-        const playerCell = row.querySelectorAll('td')[1];
-        const positionCell = row.querySelectorAll('td')[2];
-        const teamCell = row.querySelectorAll('td')[3];
-        const countryCell = row.querySelectorAll('td')[4];
-        const goalsCell = row.querySelectorAll('td')[5];
-        const assistsCell = row.querySelectorAll('td')[6];
-        const gamesCell = row.querySelectorAll('td')[7];
+      const row = document.createElement("tr");
+      
+        const classificationCell = document.createElement("td");
+        const playerCell = document.createElement("td");
+        const positionCell = document.createElement("td");
+        const teamCell = document.createElement("td");
+        const countryCell = document.createElement("td");
+        const goalsCell = document.createElement("td");
+        const assistsCell = document.createElement("td");
+        const gamesCell = document.createElement("td");
 
         classificationCell.textContent = artilheiro.classification;
         playerCell.textContent = artilheiro.player;
@@ -33,12 +31,16 @@ fetch("TopScoresEuroCupAPI.json")
         assistsCell.textContent = artilheiro.assists;
         gamesCell.textContent = artilheiro.games;
 
-    });
-  } else {
-    console.error("Erro: A edição de 2024 não foi encontrada no JSON ou não tem dados de artilheiros.");
-  }
-  })
+        row.appendChild(classificationCell);
+        row.appendChild(playerCell);
+        row.appendChild(positionCell);
+        row.appendChild(teamCell);
+        row.appendChild(countryCell);
+        row.appendChild(goalsCell);
+        row.appendChild(assistsCell);
+        row.appendChild(gamesCell);
 
-  .catch(error => {
-    console.error("Erro ao carregar dados da API:", error);
-  });
+        tablebody.appendChild(row);
+
+    });
+  })
