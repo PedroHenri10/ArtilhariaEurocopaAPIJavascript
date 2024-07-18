@@ -12,6 +12,8 @@ fetch("TopScoresEuroCupAPI.json")
     artilheiros.forEach((artilheiro, index) => { 
 
       const row = document.createElement("tr");
+
+      const assists = artilheiro.assists !== undefined ? artilheiro.assists : "0";
       
         const classificationCell = document.createElement("td");
         const playerCell = document.createElement("td");
@@ -28,7 +30,7 @@ fetch("TopScoresEuroCupAPI.json")
         teamCell.textContent = artilheiro.team;
         countryCell.textContent = artilheiro.country;
         goalsCell.textContent = artilheiro.goals;
-        assistsCell.textContent = artilheiro.assists;
+        assistsCell.textContent = assists;
         gamesCell.textContent = artilheiro.games;
 
         row.appendChild(classificationCell);
