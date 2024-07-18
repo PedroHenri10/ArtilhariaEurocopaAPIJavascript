@@ -130,7 +130,7 @@ table tr:nth-child(odd){
 
 table td{
     padding: 1rem;
-    text-align: left;
+    text-align: center;
 }
 
 table tbody tr td{
