@@ -133,15 +133,12 @@ table td{
     text-align: left;
 }
 
-/*td.player{
-    display: flex;
-    align-items: center;
-    gap: 0.8rem
+table tbody tr td{
+    transition: 0.3s ease;
 }
 
-td img{
-    width: 4rem;
-    height: 4rem;
-    object-fit: cover;
-    border-radius: 50%;
-}*/
+table tbody tr:hover td{
+    background: rgba(0, 78, 160, 0.6);
+    transform: scale(1.1);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
