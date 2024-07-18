@@ -1,5 +1,9 @@
 const topscoresTable = document.getElementById("topscoresTable");
 const tablebody = document.getElementById("data-table");
+const yearSelected = document.querySelector(".yearSelected");
+
+function updateTable(){
+  const SelectedYear = parseInt(yearSelected.value);
 
 fetch("TopScoresEuroCupAPI.json")
   .then(response => response.json())
@@ -7,7 +11,7 @@ fetch("TopScoresEuroCupAPI.json")
     
     tablebody.innerHTML = ''; 
     
-    const artilheiros = data.competitions[0].editions.find(edition => edition.year === 2024).topScorers;
+    const artilheiros = data.competitions[0].editions.find(edition => edition.year === SelectedYear).topScorers;
 
     artilheiros.forEach((artilheiro, index) => { 
 
@@ -43,6 +47,11 @@ fetch("TopScoresEuroCupAPI.json")
         row.appendChild(gamesCell);
 
         tablebody.appendChild(row);
-
+    
     });
   })
+}
+
+yearSelected.addEventListener("change", updateTable);
+
+updateTable();
