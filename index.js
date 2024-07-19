@@ -1,9 +1,18 @@
 const topscoresTable = document.getElementById("topscoresTable");
 const tablebody = document.getElementById("data-table");
 const yearSelected = document.querySelector(".yearSelected");
+const faviconLink = document.querySelector('link[rel="icon"]');
+const bgbody = document.body;
+const logoeuro = document.getElementById("logo-euro");
+const h1 = document.querySelector("h1");
+const logocampeao = document.getElementById("logo-campeao");
 
-function updateTable(){
-  const SelectedYear = parseInt(yearSelected.value);
+
+function updatePage(){
+  let SelectedYear = parseInt(yearSelected.value);
+
+  logoeuro.src = `src/img/logoeurocopa${SelectedYear}.png`;
+  logocampeao.src = `src/img/logocampeaeuro${SelectedYear}.png`;
 
 fetch("TopScoresEuroCupAPI.json")
   .then(response => response.json())
@@ -11,7 +20,7 @@ fetch("TopScoresEuroCupAPI.json")
     
     tablebody.innerHTML = ''; 
     
-    const artilheiros = data.competitions[0].editions.find(edition => edition.year === SelectedYear).topScorers;
+    let artilheiros = data.competitions[0].editions.find(edition => edition.year === SelectedYear).topScorers;
 
     artilheiros.forEach((artilheiro, index) => { 
 
@@ -52,6 +61,7 @@ fetch("TopScoresEuroCupAPI.json")
   })
 }
 
-yearSelected.addEventListener("change", updateTable);
+yearSelected.addEventListener("change", updatePage);
+updatePage();
 
-updateTable();
+window.addEventListener("load", updatePage);
