@@ -1,4 +1,4 @@
-import {h1} from "./index.js";
+import {h1, SelectedYear} from "./index.js";
 
 const languageSelect = document.getElementById("language-select");
 const edition = document.querySelector(".label-edicao");
@@ -13,7 +13,7 @@ function updateLanguage(){
     const selectedLanguage = languageSelect.value;
 
     if (selectedLanguage === "Pt-BR"){
-        h1.textContent = "Artilheiros Eurocopa 2024";
+        h1.textContent = `Artilheiros Eurocopa ${SelectedYear}`;
         edition.textContent = "Edição";
         player.textContent = "Jogador";
         position.textContent = "Posição";
@@ -22,7 +22,7 @@ function updateLanguage(){
         goals.textContent = "Gols"
         games.textContent = "Jogos";
     }else if (selectedLanguage === "En-UK"){
-        h1.textContent = "Euro Cup Top Scorers 2024";
+        h1.textContent = `Euro Cup Top Scorers ${SelectedYear}`;
         edition.textContent = "Edition";
         player.textContent = "Player";
         position.textContent = "Position";

@@ -68,3 +68,4 @@ yearSelected.addEventListener("change", updatePage);
 updatePage();
 
 window.addEventListener("load", updatePage);
+//export { h1, SelectedYear };
