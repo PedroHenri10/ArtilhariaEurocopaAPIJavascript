@@ -108,7 +108,7 @@
             {
               "classification": 2,
               "player": "Patrik Schick",
-              "position": "Atacante",
+              "position": "ATA",
               "team": "Bayer Leverkusen",
               "country": "Czech-Republic",
               "goals": 5,
@@ -186,7 +186,7 @@
               "classification": 1,
               "player": "Antoine Griezmann",
               "position": "ATA",
-              "team": "atletico de madrid",
+              "team": "Atletico de madrid",
               "country": "France",
               "goals": 6, 
               "assists": 2,
