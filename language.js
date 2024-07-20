@@ -1,10 +1,9 @@
-import { languageSelect, edition, player, position, team, country, goals, games, h1, SelectedYear, selectedLanguage } from './index.js';
+import { languageSelect, h1, edition, player, position, team, country, goals, games, updateH1, SelectedYear, selectedLanguage } from './index.js';
 
 function updateLanguage(){
     let selectedLanguage = languageSelect.value;
 
     if (selectedLanguage === "Pt-BR"){
-        h1.textContent = `Artilheiros Eurocopa ${SelectedYear}`;
         edition.textContent = "Edição";
         player.textContent = "Jogador";
         position.textContent = "Posição";
@@ -13,7 +12,6 @@ function updateLanguage(){
         goals.textContent = "Gols"
         games.textContent = "Jogos";
     }else if (selectedLanguage === "En-UK"){
-        h1.textContent = `Euro Cup Top Scorers ${SelectedYear}`;
         edition.textContent = "Edition";
         player.textContent = "Player";
         position.textContent = "Position";
@@ -22,6 +20,7 @@ function updateLanguage(){
         goals.textContent ="Goals";
         games.textContent ="Games";
     }
+    updateH1();
 }
 
 export { updateLanguage };

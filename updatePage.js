@@ -1,20 +1,15 @@
-import { topscoresTable, tablebody, logoeuro, yearSelected, faviconLink, bgbody, h1, logocampeao, SelectedYear, selectedLanguage } from './index.js';
+import { topscoresTable, tablebody, logoeuro, h1, yearSelected, faviconLink, bgbody, logocampeao, SelectedYear, selectedLanguage, updateH1 } from './index.js';
 
 function updatePage(){  
     logoeuro.src = `src/img/logoeurocopa${SelectedYear}.png`;
     logocampeao.src = `src/img/logocampeaeuro${SelectedYear}.png`;
     faviconLink.href = `src/icones/iconeeurocopa${SelectedYear}.png`;
     bgbody.style.backgroundImage = `url(src/backgronds/bg${SelectedYear}eurocopa2000.jpg)`;
-    if (selectedLanguage === "Pt-BR"){
-        h1.textContent = `Artilheiros Eurocopa ${SelectedYear}`; 
-    }else if (selectedLanguage === "En-UK") {
-        h1.textContent = `Euro Cup Top Scorers ${SelectedYear}`;
-    }
+    updateH1();
   
   fetch("TopScoresEuroCupAPI.json")
     .then(response => response.json())
     .then(data => {
-        console.log(data);
       
       tablebody.innerHTML = ''; 
       
