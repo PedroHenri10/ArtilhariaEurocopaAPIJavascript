@@ -1,7 +1,7 @@
-import { languageSelect, edition, player, position, team, country, goals, games, h1, SelectedYear } from './index.js';
+import { languageSelect, edition, player, position, team, country, goals, games, h1, SelectedYear, selectedLanguage } from './index.js';
 
 function updateLanguage(){
-    const selectedLanguage = languageSelect.value;
+    let selectedLanguage = languageSelect.value;
 
     if (selectedLanguage === "Pt-BR"){
         h1.textContent = `Artilheiros Eurocopa ${SelectedYear}`;
