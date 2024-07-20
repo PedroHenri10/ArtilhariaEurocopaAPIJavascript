@@ -1,13 +1,4 @@
-import {h1, SelectedYear} from "./index.js";
-
-const languageSelect = document.getElementById("language-select");
-const edition = document.querySelector(".label-edicao");
-const player = document.querySelector(".title-header th:nth-child(2)");
-const position = document.querySelector(".title-header th:nth-child(3)");
-const team = document.querySelector(".title-header th:nth-child(4)");
-const country = document.querySelector(".title-header th:nth-child(5)");
-const goals = document.querySelector(".title-header th:nth-child(6)");
-const games = document.querySelector(".title-header th:nth-child(8)");
+import { languageSelect, edition, player, position, team, country, goals, games, h1, SelectedYear } from './index.js';
 
 function updateLanguage(){
     const selectedLanguage = languageSelect.value;
@@ -33,5 +24,4 @@ function updateLanguage(){
     }
 }
 
-languageSelect.addEventListener("change", updateLanguage);
-updateLanguage();
+export { updateLanguage };

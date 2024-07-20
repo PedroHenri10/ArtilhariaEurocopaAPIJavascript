@@ -1,3 +1,6 @@
+import { updatePage } from '/updatePage.js';
+import { updateLanguage } from '/language.js';
+
 const topscoresTable = document.getElementById("topscoresTable");
 const tablebody = document.getElementById("data-table");
 const yearSelected = document.querySelector(".yearSelected");
@@ -6,66 +9,27 @@ const bgbody = document.querySelector("body");
 const logoeuro = document.getElementById("logo-euro");
 const h1 = document.querySelector("h1");
 const logocampeao = document.getElementById("logo-campeao");
+let SelectedYear = parseInt(yearSelected.value);
 
-function updatePage(){
-  let SelectedYear = parseInt(yearSelected.value);
+const languageSelect = document.getElementById("language-select");
+const edition = document.querySelector(".label-edicao");
+const player = document.querySelector(".title-header th:nth-child(2)");
+const position = document.querySelector(".title-header th:nth-child(3)");
+const team = document.querySelector(".title-header th:nth-child(4)");
+const country = document.querySelector(".title-header th:nth-child(5)");
+const goals = document.querySelector(".title-header th:nth-child(6)");
+const games = document.querySelector(".title-header th:nth-child(8)");
 
-  logoeuro.src = `src/img/logoeurocopa${SelectedYear}.png`;
-  logocampeao.src = `src/img/logocampeaeuro${SelectedYear}.png`;
-  faviconLink.href = `src/icones/iconeeurocopa${SelectedYear}.png`;
-  h1.textContent = `Artilheiros Eurocopa ${SelectedYear}`; 
-  bgbody.style.backgroundImage = `url(src/backgronds/bg${SelectedYear}eurocopa2000.jpg)`;
+yearSelected.addEventListener("change", () =>
+  {SelectedYear = parseInt(yearSelected.value);
+    updatePage();
+  }); 
+languageSelect.addEventListener("change", updateLanguage);
 
-
-fetch("TopScoresEuroCupAPI.json")
-  .then(response => response.json())
-  .then(data => {
-    
-    tablebody.innerHTML = ''; 
-    
-    let artilheiros = data.competitions[0].editions.find(edition => edition.year === SelectedYear).topScorers;
-
-    artilheiros.forEach((artilheiro, index) => { 
-
-      const row = document.createElement("tr");
-
-      const assists = artilheiro.assists !== undefined ? artilheiro.assists : "0";
-      
-        const classificationCell = document.createElement("td");
-        const playerCell = document.createElement("td");
-        const positionCell = document.createElement("td");
-        const teamCell = document.createElement("td");
-        const countryCell = document.createElement("td");
-        const goalsCell = document.createElement("td");
-        const assistsCell = document.createElement("td");
-        const gamesCell = document.createElement("td");
-
-        classificationCell.textContent = artilheiro.classification;
-        playerCell.textContent = artilheiro.player;
-        positionCell.textContent = artilheiro.position;
-        teamCell.textContent = artilheiro.team;
-        countryCell.textContent = artilheiro.country;
-        goalsCell.textContent = artilheiro.goals;
-        assistsCell.textContent = assists;
-        gamesCell.textContent = artilheiro.games;
-
-        row.appendChild(classificationCell);
-        row.appendChild(playerCell);
-        row.appendChild(positionCell);
-        row.appendChild(teamCell);
-        row.appendChild(countryCell);
-        row.appendChild(goalsCell);
-        row.appendChild(assistsCell);
-        row.appendChild(gamesCell);
-
-        tablebody.appendChild(row);
-    
-    });
-  })
-}
-
-yearSelected.addEventListener("change", updatePage);
 updatePage();
+updateLanguage();
 
 window.addEventListener("load", updatePage);
-//export { h1, SelectedYear };
+
+export { topscoresTable, tablebody, logoeuro, yearSelected, faviconLink, bgbody, h1, logocampeao, SelectedYear, 
+languageSelect, edition, player, position, team, country, goals, games };
