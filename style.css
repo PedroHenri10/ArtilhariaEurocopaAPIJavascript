@@ -126,8 +126,13 @@ table tr:nth-child(odd){
 }
 
 table td{
-    padding: 1rem;
+    padding: 0.9rem;
     text-align: center;
+}
+
+td img.country-icone{
+    width: 22px;
+    height: 22px;
 }
 
 table tbody tr td{
@@ -138,4 +143,9 @@ table tbody tr:hover td{
     background: rgba(0, 78, 160, 0.6);
     transform: scale(1.1);
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+tbody tr:hover img.country-icone{
+    height: 28px;
+    width: 28px;
 }

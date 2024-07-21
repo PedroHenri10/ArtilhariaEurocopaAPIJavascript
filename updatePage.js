@@ -1,4 +1,4 @@
-import { topscoresTable, tablebody, logoeuro, h1, yearSelected, faviconLink, bgbody, logocampeao, SelectedYear, selectedLanguage, languageSelect } from './index.js';
+import { topscoresTable, tablebody, logoeuro, h1, yearSelected, faviconLink, bgbody, logocampeao, SelectedYear, selectedLanguage, languageSelect, country } from './index.js';
 import { updateLanguage } from './language.js';
 
 function updatePage(){
@@ -35,7 +35,11 @@ function updatePage(){
           playerCell.textContent = artilheiro.player;
           positionCell.textContent = artilheiro.position;
           teamCell.textContent = artilheiro.team;
-          countryCell.textContent = artilheiro.country;
+          const countryImage = document.createElement("img");
+          countryImage.src = `src/icones/${artilheiro.country}.png`;
+          countryImage.alt = artilheiro.country;
+          countryImage.className = "country-icone";
+          countryCell.appendChild(countryImage);
           goalsCell.textContent = artilheiro.goals;
           assistsCell.textContent = assists;
           gamesCell.textContent = artilheiro.games;
