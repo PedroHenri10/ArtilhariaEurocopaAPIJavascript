@@ -1,11 +1,12 @@
-import { topscoresTable, tablebody, logoeuro, h1, yearSelected, faviconLink, bgbody, logocampeao, SelectedYear, selectedLanguage, updateH1 } from './index.js';
+import { topscoresTable, tablebody, logoeuro, h1, yearSelected, faviconLink, bgbody, logocampeao, SelectedYear, selectedLanguage, languageSelect } from './index.js';
+import { updateLanguage } from './language.js';
 
-function updatePage(){  
+function updatePage(){
+    updateLanguage();
     logoeuro.src = `src/img/logoeurocopa${SelectedYear}.png`;
     logocampeao.src = `src/img/logocampeaeuro${SelectedYear}.png`;
     faviconLink.href = `src/icones/iconeeurocopa${SelectedYear}.png`;
     bgbody.style.backgroundImage = `url(src/backgronds/bg${SelectedYear}eurocopa2000.jpg)`;
-    updateH1();
   
   fetch("TopScoresEuroCupAPI.json")
     .then(response => response.json())

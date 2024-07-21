@@ -11,14 +11,6 @@ const h1 = document.querySelector("h1");
 const logocampeao = document.getElementById("logo-campeao");
 let SelectedYear = parseInt(yearSelected.value);
 
-function updateH1() {
-  if (selectedLanguage === "Pt-BR") {
-    h1.textContent = `Artilheiros Eurocopa ${SelectedYear}`;
-  } else if (selectedLanguage === "En-UK") {
-    h1.textContent = `Euro Cup Top Scorers ${SelectedYear}`;
-  }
-}
-
 const languageSelect = document.getElementById("language-select");
 let selectedLanguage = languageSelect.value;
 const edition = document.querySelector(".label-edicao");
@@ -40,5 +32,5 @@ updateLanguage();
 
 window.addEventListener("load", updatePage);
 
-export { topscoresTable, tablebody, logoeuro, yearSelected, faviconLink, bgbody, h1, updateH1, logocampeao, SelectedYear, 
+export { topscoresTable, tablebody, logoeuro, yearSelected, faviconLink, bgbody, h1, logocampeao, SelectedYear, 
 languageSelect, edition, player, position, team, country, goals, games, selectedLanguage };
