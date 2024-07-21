@@ -13,6 +13,7 @@ let SelectedYear = parseInt(yearSelected.value);
 
 const languageSelect = document.getElementById("language-select");
 let selectedLanguage = languageSelect.value;
+let flagLanguage = document.querySelector(".flag");
 const edition = document.querySelector(".label-edicao");
 const player = document.querySelector(".title-header th:nth-child(2)");
 const position = document.querySelector(".title-header th:nth-child(3)");
@@ -33,4 +34,4 @@ updateLanguage();
 window.addEventListener("load", updatePage);
 
 export { topscoresTable, tablebody, logoeuro, yearSelected, faviconLink, bgbody, h1, logocampeao, SelectedYear, 
-languageSelect, edition, player, position, team, country, goals, games, selectedLanguage };
+languageSelect, edition, player, position, team, country, goals, games, selectedLanguage, flagLanguage };

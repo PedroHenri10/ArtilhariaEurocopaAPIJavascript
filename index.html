@@ -15,15 +15,14 @@
     
     <header>
         <div class="idiomas">
-            <!--<div>
-                <img src="src/icones/brasilflag.png" alt="Bandeira do Brasil" class="flag">
-                <img src="src/icones/unitedkingdom.png" alt="Bandeira do Reino Unido" class="flag">
-            </div>-->
             <label for="language-select" class="label-idioma"></label>
             <select name="language-select" id="language-select" class="language-select">
                 <option value="Pt-BR" data-img="src/icones/brasilflag.png">Pt-BR</option>
                 <option value="En-UK" data-img="">En-UK</option> 
             </select>
+            <div>
+                <img src="src/icones/brasilflag.png" alt="" class="flag">
+            </div>
         </div>
 
         <div class="header-box">
@@ -32,13 +31,13 @@
             </div>
             <h1>Artilheiros Eurocopa 2024</h1>
             <a>
-                <img id="logo-campeao" src="src/img/logocampeaeuro2024.png" alt="logo da seleção campeã">
+                <img id="logo-campeao" class="open-modal" src="src/img/logocampeaeuro2024.png" alt="logo da seleção campeã">
             </a>
         </div>
     </header>
 
     <main>
-        
+        <dialog id="modal-champion"></dialog>
         <table id="topscoresTable">
 
             <thead>
