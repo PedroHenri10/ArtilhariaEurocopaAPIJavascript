@@ -97,6 +97,10 @@ h1{
     font-family: var(--ff-title);
 }
 
+.open-modal{
+    cursor: pointer;
+}
+
 main{
     display: flex;
     flex-direction: column;
@@ -149,10 +153,21 @@ table tbody tr td{
 table tbody tr:hover td{
     background: rgba(0, 78, 160, 0.6);
     transform: scale(1.1);
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 10px rgba(72, 71, 71, 0.2);
 }
 
 tbody tr:hover img.country-icone{
     height: 28px;
     width: 28px;
+}
+
+.modal-team-champion{
+    background-color: white;
+    width: 90%;
+    margin: 100px auto;
+    height: 37rem;
+}
+
+.modal-img{
+    max-width: 100%;
 }

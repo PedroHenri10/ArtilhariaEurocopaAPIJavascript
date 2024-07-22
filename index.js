@@ -22,6 +22,16 @@ const country = document.querySelector(".title-header th:nth-child(5)");
 const goals = document.querySelector(".title-header th:nth-child(6)");
 const games = document.querySelector(".title-header th:nth-child(8)");
 
+// modal funcionalidade sendo desenvolvida
+const openModal = document.querySelector(".open-modal");
+
+openModal.addEventListener("click", () => {
+  const modalId = openModal.getAttribute('data-modal');
+  const modal = document.getElementById('modal-champion');
+
+  modal.showModal();
+});
+
 yearSelected.addEventListener("change", () =>
   {SelectedYear = parseInt(yearSelected.value);
     updatePage();
