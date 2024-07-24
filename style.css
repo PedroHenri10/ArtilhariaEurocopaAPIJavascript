@@ -190,3 +190,10 @@ dialog::after{
     background-color: rgba(0, 0, 0, 0.7);
     z-index: -1;
 }
+
+.divGames{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
