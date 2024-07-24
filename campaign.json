@@ -1,0 +1,122 @@
+{
+"competitions": [
+    {
+      "id": 1,
+      "name": "Eurocopa",
+      "editions": [
+        {
+          "year": "2024",
+          "campaign": [
+            {
+              "round": "primeiro jogo",
+              "stadium": "a",
+              "champion": "Espanha",
+              "goals_champions": "0",
+              "match": "",
+              "goals_opponent": "",
+              "img_champion": "Spain",
+              "img_opponent": "",
+              "extra_time": "-",
+              "penalty": "-"
+            },
+            {
+              "round": "segundo jogo",
+              "stadium": "a",
+              "champion": "Espanha",
+              "goals_champions": "0",
+              "match": "",
+              "goals_opponent": "",
+              "img_champion": "Spain",
+              "img_opponent": "",
+              "extra_time": "-",
+              "penalty": "-"
+            },
+            {
+              "round": "terceiro jogo",
+              "stadium": "a",
+              "champion": "Espanha",
+              "goals_champions": "0",
+              "match": "",
+              "goals_opponent": "",
+              "img_champion": "Spain",
+              "img_opponent": "",
+              "extra_time": "-",
+              "penalty": "-"
+            },
+            {
+              "round": "terceiro jogo",
+              "stadium": "a",
+              "champion": "Espanha",
+              "goals_champions": "0",
+              "match": "",
+              "goals_opponent": "",
+              "img_champion": "Spain",
+              "img_opponent": "",
+              "extra_time": "-",
+              "penalty": "-"
+            },
+            {
+              "round": "terceiro jogo",
+              "stadium": "a",
+              "champion": "Espanha",
+              "goals_champions": "0",
+              "match": "",
+              "goals_opponent": "",
+              "img_champion": "Spain",
+              "img_opponent": "",
+              "extra_time": "-",
+              "penalty": "-"
+            },
+            {
+              "round": "terceiro jogo",
+              "stadium": "a",
+              "champion": "Espanha",
+              "goals_champions": "0",
+              "match": "",
+              "goals_opponent": "",
+              "img_champion": "Spain",
+              "img_opponent": "",
+              "extra_time": "-",
+              "penalty": "-"
+            },
+            {
+              "round": "terceiro jogo",
+              "stadium": "a",
+              "champion": "Espanha",
+              "goals_champions": "0",
+              "match": "",
+              "goals_opponent": "",
+              "img_champion": "Spain",
+              "img_opponent": "",
+              "extra_time": "-",
+              "penalty": "-"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Copa América",
+      "editions": [
+        {
+          "year": "2024",
+          "campaign": [
+            {
+              "round": "primeiro jogo",
+              "stadium": "a",
+              "champion": "Espanha",
+              "goals_champions": "0",
+              "match": "",
+              "goals_opponent": "",
+              "img_champion": "Spain",
+              "img_opponent": "",
+              "extra_time": "-",
+              "penalty": "-"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
