@@ -23,11 +23,13 @@ fetch("campaign.json")
         divGames.appendChild(boxgame);
 
         boxgame.innerHTML = `
-            <h2>${campaign.round}</h2>
-            <span>
-                <img src="src/icones/${campaign.champion}.png" alt="imagem seleção ${campaign.champion}"/>
+            <h3 class="match">${campaign.round}</h3>
+            <span class="match">
+                <img src="src/icones/${campaign.champion}.png" class"flag-campaign" alt="imagem seleção ${campaign.champion}"/>
+                ${campaign.goals_champions}
                 ${campaign.match}
-                <img src="src/icones/${campaign.opponent}.png" alt="imagem seleção ${campaign.opponent}"/>
+                ${campaign.goals_opponent}
+                <img src="src/icones/${campaign.opponent}.png" class"flag-campaign" alt="imagem seleção ${campaign.opponent}"/>
             </span>
             <h5>${campaign.stadium}</h5>
         `

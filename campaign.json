@@ -8,7 +8,7 @@
           "year": 2024,
           "campaign": [
             {
-              "round": "primeiro jogo",
+              "round": "Primeiro jogo",
               "stadium": "Olympiastadion Berlin",
               "champion": "Spain",
               "goals_champions": "3",
@@ -19,7 +19,7 @@
               "penalty": "-"
             },
             {
-              "round": "segundo jogo",
+              "round": "Segundo jogo",
               "stadium": "Veltins-Arena",
               "champion": "Spain",
               "goals_champions": "1",
@@ -30,7 +30,7 @@
               "penalty": "-"
             },
             {
-              "round": "terceiro jogo",
+              "round": "Terceiro jogo",
               "stadium": "Merkur Spiel Arena",
               "champion": "Spain",
               "goals_champions": "1",
@@ -90,7 +90,7 @@
           "year": 2020,
           "campaign": [
             {
-              "round": "primeiro jogo",
+              "round": "Primeiro jogo",
               "stadium": "Stadio Olimpico Rome",
               "champion": "Italy",
               "goals_champions": "3",
@@ -101,7 +101,7 @@
               "penalty": "-"
             },
             {
-              "round": "segundo jogo",
+              "round": "Segundo jogo",
               "stadium": "Stadio Olimpico Rome",
               "champion": "Italy",
               "goals_champions": "3",
@@ -112,7 +112,7 @@
               "penalty": "-"
             },
             {
-              "round": "terceiro jogo",
+              "round": "Terceiro jogo",
               "stadium": "Stadio Olimpico Rome",
               "champion": "Italy",
               "goals_champions": "1",
@@ -172,7 +172,7 @@
           "year": 2016,
           "campaign": [
             {
-              "round": "primeiro jogo",
+              "round": "Primeiro jogo",
               "stadium": "Stade Geoffroy-Guichard",
               "champion": "Portugal",
               "goals_champions": "1",
@@ -183,7 +183,7 @@
               "penalty": "-"
             },
             {
-              "round": "segundo jogo",
+              "round": "Segundo jogo",
               "stadium": "Parc Des Princes",
               "champion": "Portugal",
               "goals_champions": "0",
@@ -194,7 +194,7 @@
               "penalty": "-"
             },
             {
-              "round": "terceiro jogo",
+              "round": "Terceiro jogo",
               "stadium": "Parc Olympique Lyonnais",
               "champion": "Portugal",
               "goals_champions": "3",
@@ -260,7 +260,7 @@
           "year": 2024,
           "campaign": [
             {
-              "round": "primeiro jogo",
+              "round": "Primeiro jogo",
               "stadium": "a",
               "champion": "Spain",
               "goals_champions": "0",

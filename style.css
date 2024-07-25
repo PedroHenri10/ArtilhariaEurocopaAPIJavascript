@@ -193,7 +193,25 @@ dialog::after{
 
 .divGames{
     width: 90%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin: 0 auto;
+    display: grid;
+}
+
+H3{
+    text-align: center;
+    color: black;
+}
+
+.divGames > div{
+    margin: 1rem 0;
+    padding: 1rem;
+    background: rgba(146, 202, 243, 0.5);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.match{
+    background: white;
+    border-radius: 12px;
+    color: black;
 }
