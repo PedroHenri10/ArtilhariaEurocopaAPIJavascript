@@ -1,3 +1,5 @@
+import { SelectedYear } from "./index.js";
+
 const openModal = document.querySelector(".open-modal");
 
 openModal.addEventListener("click", () => {
@@ -9,11 +11,11 @@ openModal.addEventListener("click", () => {
 
 const divGames = document.querySelector('.divGames');
 
-fetch('campaign.json')
-.then(resposta => resposta.json())
-  .then(dados => {
+fetch("campaign.json")
+  .then(response => response.json())
+  .then(data => {
 
-    let campanha = data.competitions[0].editions.campaign;
+    let campanha = data.competitions[0].editions.find(edition => edition.year === SelectedYear).campaign;
 
     campanha.forEach( campaign => {
         let boxgame = document.createElement('div');
@@ -23,9 +25,9 @@ fetch('campaign.json')
         boxgame.innerHTML = `
             <h2>${campaign.round}</h2>
             <span>
-                <img src="src/icones/${campaign.img_champion}" alt="imagem seleção ${campaign.img_champion}"/>
+                <img src="src/icones/${campaign.champion}.png" alt="imagem seleção ${campaign.champion}"/>
                 ${campaign.match}
-                <img src="src/icones/${campaign.img_opponent}" alt="imagem seleção ${campaign.img_opponent}"/>
+                <img src="src/icones/${campaign.opponent}.png" alt="imagem seleção ${campaign.opponent}"/>
             </span>
             <h5>${campaign.stadium}</h5>
         `

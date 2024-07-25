@@ -5,14 +5,14 @@
       "name": "Eurocopa",
       "editions": [
         {
-          "year": "2024",
+          "year": 2024,
           "campaign": [
             {
               "round": "primeiro jogo",
               "stadium": "Olympiastadion Berlin",
               "champion": "Spain",
               "goals_champions": "3",
-              "match": "",
+              "match": "X",
               "goals_opponent": "0",
               "opponent": "Croatia",
               "extra_time": "-",
@@ -23,7 +23,7 @@
               "stadium": "Veltins-Arena",
               "champion": "Spain",
               "goals_champions": "1",
-              "match": "",
+              "match": "X",
               "goals_opponent": "0",
               "opponent": "Italy",
               "extra_time": "-",
@@ -31,10 +31,10 @@
             },
             {
               "round": "terceiro jogo",
-              "stadium": "a",
+              "stadium": "Merkur Spiel Arena",
               "champion": "Spain",
               "goals_champions": "1",
-              "match": "",
+              "match": "X",
               "goals_opponent": "0",
               "opponent": "Albania",
               "extra_time": "-",
@@ -45,7 +45,7 @@
               "stadium": "Merkur Spiel Arena",
               "champion": "Spain",
               "goals_champions": "4",
-              "match": "",
+              "match": "X",
               "goals_opponent": "1",
               "opponent": "Georgia",
               "extra_time": "-",
@@ -56,7 +56,7 @@
               "stadium": "MHPArena",
               "champion": "Spain",
               "goals_champions": "2",
-              "match": "",
+              "match": "X",
               "goals_opponent": "1",
               "opponent": "Germany",
               "extra_time": "-",
@@ -67,7 +67,7 @@
               "stadium": "Allianz Arena",
               "champion": "Spain",
               "goals_champions": "2",
-              "match": "",
+              "match": "X",
               "goals_opponent": "1",
               "opponent": "France",
               "extra_time": "-",
@@ -78,7 +78,7 @@
               "stadium": "Olympiastadion Berlin",
               "champion": "Spain",
               "goals_champions": "2",
-              "match": "",
+              "match": "X",
               "goals_opponent": "1",
               "opponent": "England",
               "extra_time": "-",
@@ -87,7 +87,7 @@
           ]
         },
         {
-          "year": "2020",
+          "year": 2020,
           "campaign": [
             {
               "round": "primeiro jogo",
@@ -169,7 +169,7 @@
           ]
         },
         {
-          "year": "2016",
+          "year": 2016,
           "campaign": [
             {
               "round": "primeiro jogo",
@@ -257,7 +257,7 @@
       "name": "Copa América",
       "editions": [
         {
-          "year": "2024",
+          "year": 2024,
           "campaign": [
             {
               "round": "primeiro jogo",
