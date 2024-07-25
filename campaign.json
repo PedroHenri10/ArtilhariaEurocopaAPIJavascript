@@ -1,5 +1,5 @@
 {
-"competitions": [
+  "competitions": [
     {
       "id": 1,
       "name": "Eurocopa",
@@ -84,7 +84,9 @@
               "extra_time": "-",
               "penalty": "-"
             }
-          ],
+          ]
+        },
+        {
           "year": "2020",
           "campaign": [
             {
@@ -164,85 +166,89 @@
               "extra_time": "-",
               "penalty": "3-2"
             }
-          ],
+          ]
+        },
+        {
           "year": "2016",
-          "campaign": {
-            "round": "primeiro jogo",
-            "stadium": "Stade Geoffroy-Guichard",
-            "champion": "Portugal",
-            "goals_champions": "1",
-            "match": "",
-            "goals_opponent": "1",
-            "opponent": "Iceland",
-            "extra_time": "-",
-            "penalty": "-"
-          },
-          {
-            "round": "segundo jogo",
-            "stadium": "Parc Des Princes",
-            "champion": "Portugal",
-            "goals_champions": "0",
-            "match": "",
-            "goals_opponent": "0",
-            "opponent": "Austria",
-            "extra_time": "-",
-            "penalty": "-"
-          },
-          {
-            "round": "terceiro jogo",
-            "stadium": "Parc Olympique Lyonnais",
-            "champion": "Portugal",
-            "goals_champions": "3",
-            "match": "",
-            "goals_opponent": "3",
-            "opponent": "Hungary",
-            "extra_time": "-",
-            "penalty": "-"
-          },
-          {
-            "round": "Oitavas",
-            "stadium": "Stade Bollaert-Delelis",
-            "champion": "Portugal",
-            "goals_champions": "1",
-            "match": "",
-            "goals_opponent": "0",
-            "opponent": "Croatia",
-            "extra_time": "-",
-            "penalty": "-"
-          },
-          {
-            "round": "Quartas",
-            "stadium": "Stade Vélodrome",
-            "champion": "Portugal",
-            "goals_champions": "1",
-            "match": "",
-            "goals_opponent": "1",
-            "opponent": "Poland",
-            "extra_time": "-",
-            "penalty": "3-5"
-          },
-          {
-            "round": "Semi",
-            "stadium": "Parc Olympique Lyonnais",
-            "champion": "Portugal",
-            "goals_champions": "2",
-            "match": "",
-            "goals_opponent": "0",
-            "opponent": "Wales",
-            "extra_time": "-",
-            "penalty": "-"
-          },
-          {
-            "round": "Final",
-            "stadium": "Stade de France Saint-Denis",
-            "champion": "Portugal",
-            "goals_champions": "1",
-            "match": "",
-            "goals_opponent": "0",
-            "opponent": "France",
-            "extra_time": "-",
-            "penalty": "-"
-          }
+          "campaign": [
+            {
+              "round": "primeiro jogo",
+              "stadium": "Stade Geoffroy-Guichard",
+              "champion": "Portugal",
+              "goals_champions": "1",
+              "match": "",
+              "goals_opponent": "1",
+              "opponent": "Iceland",
+              "extra_time": "-",
+              "penalty": "-"
+            },
+            {
+              "round": "segundo jogo",
+              "stadium": "Parc Des Princes",
+              "champion": "Portugal",
+              "goals_champions": "0",
+              "match": "",
+              "goals_opponent": "0",
+              "opponent": "Austria",
+              "extra_time": "-",
+              "penalty": "-"
+            },
+            {
+              "round": "terceiro jogo",
+              "stadium": "Parc Olympique Lyonnais",
+              "champion": "Portugal",
+              "goals_champions": "3",
+              "match": "",
+              "goals_opponent": "3",
+              "opponent": "Hungary",
+              "extra_time": "-",
+              "penalty": "-"
+            },
+            {
+              "round": "Oitavas",
+              "stadium": "Stade Bollaert-Delelis",
+              "champion": "Portugal",
+              "goals_champions": "1",
+              "match": "",
+              "goals_opponent": "0",
+              "opponent": "Croatia",
+              "extra_time": "-",
+              "penalty": "-"
+            },
+            {
+              "round": "Quartas",
+              "stadium": "Stade Vélodrome",
+              "champion": "Portugal",
+              "goals_champions": "1",
+              "match": "",
+              "goals_opponent": "1",
+              "opponent": "Poland",
+              "extra_time": "-",
+              "penalty": "5-3"
+            },
+            {
+              "round": "Semi",
+              "stadium": "Parc Olympique Lyonnais",
+              "champion": "Portugal",
+              "goals_champions": "2",
+              "match": "",
+              "goals_opponent": "0",
+              "opponent": "Wales",
+              "extra_time": "-",
+              "penalty": "-"
+            },
+            {
+              "round": "Final",
+              "stadium": "Stade de France Saint-Denis",
+              "champion": "Portugal",
+              "goals_champions": "1",
+              "match": "",
+              "goals_opponent": "0",
+              "opponent": "France",
+              "extra_time": "-",
+              "penalty": "-"
+            }
+          ]
         }
       ]
     },
