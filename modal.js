@@ -24,13 +24,13 @@ fetch("campaign.json")
 
         boxgame.innerHTML = `
             <h3 class="match">${campaign.round}</h3>
-            <span class="match">
-                <img src="src/icones/${campaign.champion}.png" class"flag-campaign" alt="imagem seleção ${campaign.champion}"/>
-                ${campaign.goals_champions}
+            <h4 class="match">
+                <img class="flag-modal" src="src/icones/${campaign.champion}.png" class"flag-campaign" alt="imagem seleção ${campaign.champion}"/>
+                <span class="goals">${campaign.goals_champions}</span>
                 ${campaign.match}
-                ${campaign.goals_opponent}
-                <img src="src/icones/${campaign.opponent}.png" class"flag-campaign" alt="imagem seleção ${campaign.opponent}"/>
-            </span>
+                <span class="goals">${campaign.goals_opponent}</span>
+                <img class="flag-modal" src="src/icones/${campaign.opponent}.png" class"flag-campaign" alt="imagem seleção ${campaign.opponent}"/>
+            </h4>
             <h5>${campaign.stadium}</h5>
         `
     }

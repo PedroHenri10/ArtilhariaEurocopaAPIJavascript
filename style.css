@@ -166,6 +166,7 @@ tbody tr:hover img.country-icone{
 
 dialog{ 
     position: relative;
+    align-items: center;
 }
 
 dialog::before, dialog::after{
@@ -193,25 +194,60 @@ dialog::after{
 
 .divGames{
     width: 90%;
-    margin: 0 auto;
+    margin: auto;
     display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1rem;
+    justify-content: center;
 }
 
 H3{
-    text-align: center;
     color: black;
 }
 
+h3, h4, h5{
+    text-align: center;
+}
+
+h4{
+    font-size: 16px;
+}
+
 .divGames > div{
-    margin: 1rem 0;
-    padding: 1rem;
-    background: rgba(146, 202, 243, 0.5);
+    margin-top: 1rem;
+    padding: 1.2rem;
+    background: rgba(146, 202, 243, 0.4);
     border-radius: 5px;
     text-align: center;
 }
 
 .match{
-    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff80;
     border-radius: 12px;
     color: black;
+    padding-block: 5px;
+    margin-block: 0.8rem;
+}
+
+.goals{
+    width: 28px;
+    height: 28px;
+    display: block;
+    border-radius: 50%;
+    line-height: 28px;
+    background-color: #ffffff;
+    color: black;
+    margin: 0 0.4rem;
+}
+
+.flag-modal{
+    width: 28px;
+    height: 28px;
+}
+
+h5{
+    margin-top: 1.2rem;
 }
