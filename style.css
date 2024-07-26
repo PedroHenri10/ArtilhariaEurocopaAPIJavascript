@@ -194,12 +194,18 @@ dialog::after{
 
 .divGames{
     width: 90%;
+    height: 140px;
     margin: auto;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-    gap: 1rem;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
+    gap: 1rem;
 }
+
+.divGames > div {
+    flex-basis: 260px;
+  }
 
 H3{
     color: black;
