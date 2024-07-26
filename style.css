@@ -194,7 +194,7 @@ dialog::after{
 
 .divGames{
     width: 90%;
-    height: 140px;
+    height: 35rem;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
@@ -205,7 +205,11 @@ dialog::after{
 
 .divGames > div {
     flex-basis: 260px;
-  }
+}
+
+.divGames > div:nth-child(n + 5) {
+    flex-wrap: nowrap !important;
+}
 
 H3{
     color: black;
