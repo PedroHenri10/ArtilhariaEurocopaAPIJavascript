@@ -3,13 +3,14 @@ import { updateLanguage } from '/language.js';
 
 const topscoresTable = document.getElementById("topscoresTable");
 const tablebody = document.getElementById("data-table");
-const yearSelected = document.querySelector(".yearSelected");
+let yearSelected = document.querySelector(".yearSelected");
 const faviconLink = document.querySelector('link[rel="icon"]');
 const bgbody = document.querySelector("body");
 const logoeuro = document.getElementById("logo-euro");
 const h1 = document.querySelector("h1");
 const logocampeao = document.getElementById("logo-campeao");
 let SelectedYear = parseInt(yearSelected.value);
+let bgModal = document.querySelector('dialog');
 
 const languageSelect = document.getElementById("language-select");
 let selectedLanguage = languageSelect.value;
@@ -33,5 +34,5 @@ updateLanguage();
 
 window.addEventListener("load", updatePage);
 
-export { topscoresTable, tablebody, logoeuro, yearSelected, faviconLink, bgbody, h1, logocampeao, SelectedYear, 
+export { topscoresTable, tablebody, logoeuro, yearSelected, faviconLink, bgbody, h1, logocampeao, SelectedYear, bgModal,
 languageSelect, edition, player, position, team, country, goals, games, selectedLanguage, flagLanguage };

@@ -166,7 +166,11 @@ tbody tr:hover img.country-icone{
 
 dialog{ 
     position: relative;
-    align-items: center;
+    overflow: hidden;
+    background-image: url(src/img/teameuro2024champions1800.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 dialog::before, dialog::after{
@@ -179,11 +183,6 @@ dialog::before, dialog::after{
 }
 
 dialog::before{
-    overflow: hidden;
-    background-image: url(src/img/teameuro2024champions1800.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
     z-index: -2;
 }
 

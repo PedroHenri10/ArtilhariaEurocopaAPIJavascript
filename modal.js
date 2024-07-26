@@ -1,11 +1,11 @@
-import { SelectedYear } from "./index.js";
+import { yearSelected, SelectedYear } from './index.js';
 
 const openModal = document.querySelector(".open-modal");
 
 openModal.addEventListener("click", () => {
   const modalId = openModal.getAttribute('data-modal');
   const modal = document.getElementById('modal-champion');
-
+  /*SelectedYear = parseInt(yearSelected.value); */
   modal.showModal();
 });
 
@@ -36,4 +36,4 @@ fetch("campaign.json")
     }
 
     )
-  })
+  }) 
