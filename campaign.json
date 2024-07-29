@@ -8,7 +8,8 @@
           "year": 2024,
           "campaign": [
             {
-              "round": "Primeiro jogo",
+              "round": "Fase de grupo",
+              "round_UK": "Group stage",
               "stadium": "Olympiastadion Berlin",
               "champion": "Spain",
               "goals_champions": "3",
@@ -19,7 +20,8 @@
               "penalty": "-"
             },
             {
-              "round": "Segundo jogo",
+              "round": "Fase de grupo",
+              "round_UK": "Group stage",
               "stadium": "Veltins-Arena",
               "champion": "Spain",
               "goals_champions": "1",
@@ -30,7 +32,8 @@
               "penalty": "-"
             },
             {
-              "round": "Terceiro jogo",
+              "round": "Fase de grupo",
+              "round_UK": "Group stage",
               "stadium": "Merkur Spiel Arena",
               "champion": "Spain",
               "goals_champions": "1",
@@ -42,6 +45,7 @@
             },
             {
               "round": "Oitavas",
+              "round_UK": "Round of 16",
               "stadium": "Merkur Spiel Arena",
               "champion": "Spain",
               "goals_champions": "4",
@@ -53,6 +57,7 @@
             },
             {
               "round": "Quartas",
+              "round_UK": "Quarter Final",
               "stadium": "MHPArena",
               "champion": "Spain",
               "goals_champions": "2",
@@ -63,7 +68,8 @@
               "penalty": "-"
             },
             {
-              "round": "Semi",
+              "round": "Semi-final",
+              "round_UK": "Semi-final",
               "stadium": "Allianz Arena",
               "champion": "Spain",
               "goals_champions": "2",
@@ -75,6 +81,7 @@
             },
             {
               "round": "Final",
+              "round_UK": "Final",
               "stadium": "Olympiastadion Berlin",
               "champion": "Spain",
               "goals_champions": "2",
@@ -90,7 +97,8 @@
           "year": 2020,
           "campaign": [
             {
-              "round": "Primeiro jogo",
+              "round": "Fase de grupo",
+              "round_UK": "Group stage",
               "stadium": "Stadio Olimpico Rome",
               "champion": "Italy",
               "goals_champions": "3",
@@ -101,7 +109,8 @@
               "penalty": "-"
             },
             {
-              "round": "Segundo jogo",
+              "round": "Fase de grupo",
+              "round_UK": "Group stage",
               "stadium": "Stadio Olimpico Rome",
               "champion": "Italy",
               "goals_champions": "3",
@@ -112,7 +121,8 @@
               "penalty": "-"
             },
             {
-              "round": "Terceiro jogo",
+              "round": "Fase de grupo",
+              "round_UK": "Group stage",
               "stadium": "Stadio Olimpico Rome",
               "champion": "Italy",
               "goals_champions": "1",
@@ -124,6 +134,7 @@
             },
             {
               "round": "Oitavas",
+              "round_UK": "Round of 16",
               "stadium": "Wembley Stadium",
               "champion": "Italy",
               "goals_champions": "2",
@@ -135,6 +146,7 @@
             },
             {
               "round": "Quartas",
+              "round_UK": "Quarter Final",
               "stadium": "Allianz Arena",
               "champion": "Italy",
               "goals_champions": "2",
@@ -145,7 +157,8 @@
               "penalty": "-"
             },
             {
-              "round": "Semi",
+              "round": "Semi-final",
+              "round_UK": "Semi-final",
               "stadium": "Wembley Stadium",
               "champion": "Italy",
               "goals_champions": "1",
@@ -157,6 +170,7 @@
             },
             {
               "round": "Final",
+              "round_UK": "Final",
               "stadium": "Wembley Stadium",
               "champion": "Italy",
               "goals_champions": "1",
@@ -172,7 +186,8 @@
           "year": 2016,
           "campaign": [
             {
-              "round": "Primeiro jogo",
+              "round": "Fase de grupo",
+              "round_UK": "Group stage",
               "stadium": "Stade Geoffroy-Guichard",
               "champion": "Portugal",
               "goals_champions": "1",
@@ -183,7 +198,8 @@
               "penalty": "-"
             },
             {
-              "round": "Segundo jogo",
+              "round": "Fase de grupo",
+              "round_UK": "Group stage",
               "stadium": "Parc Des Princes",
               "champion": "Portugal",
               "goals_champions": "0",
@@ -194,7 +210,8 @@
               "penalty": "-"
             },
             {
-              "round": "Terceiro jogo",
+              "round": "Fase de grupo",
+              "round_UK": "Group stage",
               "stadium": "Parc Olympique Lyonnais",
               "champion": "Portugal",
               "goals_champions": "3",
@@ -206,6 +223,7 @@
             },
             {
               "round": "Oitavas",
+              "round_UK": "Round of 16",
               "stadium": "Stade Bollaert-Delelis",
               "champion": "Portugal",
               "goals_champions": "1",
@@ -217,6 +235,7 @@
             },
             {
               "round": "Quartas",
+              "round_UK": "Quarter Final",
               "stadium": "Stade Vélodrome",
               "champion": "Portugal",
               "goals_champions": "1",
@@ -227,7 +246,8 @@
               "penalty": "5-3"
             },
             {
-              "round": "Semi",
+              "round": "Semi-final",
+              "round_UK": "Semi-final",
               "stadium": "Parc Olympique Lyonnais",
               "champion": "Portugal",
               "goals_champions": "2",
@@ -239,6 +259,7 @@
             },
             {
               "round": "Final",
+              "round_UK": "Final",
               "stadium": "Stade de France Saint-Denis",
               "champion": "Portugal",
               "goals_champions": "1",
@@ -260,7 +281,8 @@
           "year": 2024,
           "campaign": [
             {
-              "round": "Primeiro jogo",
+              "round": "Fase de grupo",
+              "round_UK": "Group stage",
               "stadium": "a",
               "champion": "Spain",
               "goals_champions": "0",
