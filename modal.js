@@ -7,6 +7,7 @@ openModal.addEventListener("click", () => {
   const modal = document.getElementById('modal-champion');
   /*SelectedYear = parseInt(yearSelected.value); */
   modal.showModal();
+  //console.log("Ano selecionado:", year); 
 });
 
 const divGames = document.querySelector('.divGames');

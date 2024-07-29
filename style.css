@@ -93,8 +93,9 @@ h1{
     font-family: var(--ff-title);
 }
 
-.open-modal{
+.open-modal:hover{
     cursor: pointer;
+    transform: scale(1.1);
 }
 
 main{
