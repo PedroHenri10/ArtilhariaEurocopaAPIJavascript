@@ -2,20 +2,13 @@ import { yearSelected, SelectedYear } from './index.js';
 
 const openModal = document.querySelector(".open-modal");
 
-openModal.addEventListener("click", () => {
-  const modalId = openModal.getAttribute('data-modal');
-  const modal = document.getElementById('modal-champion');
-  /*SelectedYear = parseInt(yearSelected.value); */
-  modal.showModal();
-  //console.log("Ano selecionado:", year); 
-});
-
 const divGames = document.querySelector('.divGames');
 
+function fetchCampaignData(selectedYear) {
 fetch("campaign.json")
   .then(response => response.json())
   .then(data => {
-
+    
     let campanha = data.competitions[0].editions.find(edition => edition.year === SelectedYear).campaign;
 
     campanha.forEach( campaign => {
@@ -38,3 +31,12 @@ fetch("campaign.json")
 
     )
   }) 
+}
+
+  openModal.addEventListener("click", () => {
+    const modalId = openModal.getAttribute('data-modal');
+    const modal = document.getElementById('modal-champion');
+    modal.showModal();
+    fetchCampaignData(SelectedYear);
+  });
+  
