@@ -226,6 +226,7 @@ h4{
 .divGames > div{
     margin-top: 1rem;
     padding: 1.2rem;
+    height: 210px;
     background: rgba(146, 202, 243, 0.3);
     border-radius: 5px;
     text-align: center;
@@ -251,6 +252,11 @@ h4{
     background-color: #ffffff;
     color: black;
     margin: 0 0.4rem;
+}
+
+.penalty{
+ margin-top: -0.5rem;
+ font-size: 1rem;
 }
 
 .flag-modal{

@@ -24,7 +24,8 @@ fetch("campaign.json")
                 ${campaign.match}
                 <span class="goals">${campaign.goals_opponent}</span>
                 <img class="flag-modal" src="src/icones/${campaign.opponent}.png" class"flag-campaign" alt="imagem seleção ${campaign.opponent}"/>
-            </h4>
+                </h4>
+                <p class="penalty"><sub>${campaign.penalty}</sub></p>
             <h5>${campaign.stadium}</h5>
         `
     }

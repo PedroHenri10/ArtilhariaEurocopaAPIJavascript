@@ -16,20 +16,20 @@
               "match": "ESP X CRO",
               "goals_opponent": "0",
               "opponent": "Croatia",
-              "extra_time": "-",
-              "penalty": "-"
+              "extra_time": "",
+              "penalty": ""
             },
             {
               "round": "Fase de grupo",
               "round_UK": "Group stage",
-              "stadium": "Veltins-Arena",
+              "stadium": "VeltinsArena",
               "champion": "Spain",
               "goals_champions": "1",
               "match": "ESP X ITA",
               "goals_opponent": "0",
               "opponent": "Italy",
-              "extra_time": "-",
-              "penalty": "-"
+              "extra_time": "",
+              "penalty": ""
             },
             {
               "round": "Fase de grupo",
@@ -40,8 +40,8 @@
               "match": "ESP X ALB",
               "goals_opponent": "0",
               "opponent": "Albania",
-              "extra_time": "-",
-              "penalty": "-"
+              "extra_time": "",
+              "penalty": ""
             },
             {
               "round": "Oitavas",
@@ -52,8 +52,8 @@
               "match": "ESP X GEO",
               "goals_opponent": "1",
               "opponent": "Georgia",
-              "extra_time": "-",
-              "penalty": "-"
+              "extra_time": "",
+              "penalty": ""
             },
             {
               "round": "Quartas",
@@ -64,20 +64,20 @@
               "match": "ESP X GER",
               "goals_opponent": "1",
               "opponent": "Germany",
-              "extra_time": "-",
-              "penalty": "-"
+              "extra_time": "",
+              "penalty": ""
             },
             {
-              "round": "Semi-final",
-              "round_UK": "Semi-final",
+              "round": "Semifinal",
+              "round_UK": "Semifinal",
               "stadium": "Allianz Arena",
               "champion": "Spain",
               "goals_champions": "2",
               "match": "ESP X FRA",
               "goals_opponent": "1",
               "opponent": "France",
-              "extra_time": "-",
-              "penalty": "-"
+              "extra_time": "",
+              "penalty": ""
             },
             {
               "round": "Final",
@@ -88,8 +88,8 @@
               "match": "ESP X ENG",
               "goals_opponent": "1",
               "opponent": "England",
-              "extra_time": "-",
-              "penalty": "-"
+              "extra_time": "",
+              "penalty": ""
             }
           ]
         },
@@ -105,8 +105,8 @@
               "match": "ITA X TUR",
               "goals_opponent": "0",
               "opponent": "Turkey",
-              "extra_time": "-",
-              "penalty": "-"
+              "extra_time": "",
+              "penalty": ""
             },
             {
               "round": "Fase de grupo",
@@ -117,8 +117,8 @@
               "match": "ITA X SUI",
               "goals_opponent": "0",
               "opponent": "Switzerland",
-              "extra_time": "-",
-              "penalty": "-"
+              "extra_time": "",
+              "penalty": ""
             },
             {
               "round": "Fase de grupo",
@@ -129,8 +129,8 @@
               "match": "ITA X WAL",
               "goals_opponent": "0",
               "opponent": "Wales",
-              "extra_time": "-",
-              "penalty": "-"
+              "extra_time": "",
+              "penalty": ""
             },
             {
               "round": "Oitavas",
@@ -141,8 +141,8 @@
               "match": "ITA X AUT",
               "goals_opponent": "1",
               "opponent": "Austria",
-              "extra_time": "-",
-              "penalty": "-"
+              "extra_time": "",
+              "penalty": ""
             },
             {
               "round": "Quartas",
@@ -153,19 +153,19 @@
               "match": "ITA X BEL",
               "goals_opponent": "1",
               "opponent": "Belgium",
-              "extra_time": "-",
-              "penalty": "-"
+              "extra_time": "",
+              "penalty": ""
             },
             {
-              "round": "Semi-final",
-              "round_UK": "Semi-final",
+              "round": "Semifinal",
+              "round_UK": "Semifinal",
               "stadium": "Wembley Stadium",
               "champion": "Italy",
               "goals_champions": "1",
               "match": "ITA X ESP",
               "goals_opponent": "1",
               "opponent": "Spain",
-              "extra_time": "-",
+              "extra_time": "",
               "penalty": "4-2"
             },
             {
@@ -177,7 +177,7 @@
               "match": "ITA X ENG",
               "goals_opponent": "1",
               "opponent": "England",
-              "extra_time": "-",
+              "extra_time": "",
               "penalty": "3-2"
             }
           ]
@@ -188,14 +188,14 @@
             {
               "round": "Fase de grupo",
               "round_UK": "Group stage",
-              "stadium": "Stade Geoffroy-Guichard",
+              "stadium": "Stade GeoffroyGuichard",
               "champion": "Portugal",
               "goals_champions": "1",
               "match": "POR X ISL",
               "goals_opponent": "1",
               "opponent": "Iceland",
-              "extra_time": "-",
-              "penalty": "-"
+              "extra_time": "",
+              "penalty": ""
             },
             {
               "round": "Fase de grupo",
@@ -206,8 +206,8 @@
               "match": "POR X AUT",
               "goals_opponent": "0",
               "opponent": "Austria",
-              "extra_time": "-",
-              "penalty": "-"
+              "extra_time": "",
+              "penalty": ""
             },
             {
               "round": "Fase de grupo",
@@ -218,20 +218,20 @@
               "match": "POR X HUN",
               "goals_opponent": "3",
               "opponent": "Hungary",
-              "extra_time": "-",
-              "penalty": "-"
+              "extra_time": "",
+              "penalty": ""
             },
             {
               "round": "Oitavas",
               "round_UK": "Round of 16",
-              "stadium": "Stade Bollaert-Delelis",
+              "stadium": "Stade BollaertDelelis",
               "champion": "Portugal",
               "goals_champions": "1",
               "match": "POR X CRO",
               "goals_opponent": "0",
               "opponent": "Croatia",
-              "extra_time": "-",
-              "penalty": "-"
+              "extra_time": "",
+              "penalty": ""
             },
             {
               "round": "Quartas",
@@ -242,32 +242,32 @@
               "match": "POR X POL",
               "goals_opponent": "1",
               "opponent": "Poland",
-              "extra_time": "-",
+              "extra_time": "",
               "penalty": "5-3"
             },
             {
-              "round": "Semi-final",
-              "round_UK": "Semi-final",
+              "round": "Semifinal",
+              "round_UK": "Semifinal",
               "stadium": "Parc Olympique Lyonnais",
               "champion": "Portugal",
               "goals_champions": "2",
               "match": "POR X WAL",
               "goals_opponent": "0",
               "opponent": "Wales",
-              "extra_time": "-",
-              "penalty": "-"
+              "extra_time": "",
+              "penalty": ""
             },
             {
               "round": "Final",
               "round_UK": "Final",
-              "stadium": "Stade de France Saint-Denis",
+              "stadium": "Stade de France SaintDenis",
               "champion": "Portugal",
               "goals_champions": "1",
               "match": "POR X FRA",
               "goals_opponent": "0",
               "opponent": "France",
-              "extra_time": "-",
-              "penalty": "-"
+              "extra_time": "",
+              "penalty": ""
             }
           ]
         }
@@ -289,8 +289,8 @@
               "match": "",
               "goals_opponent": "",
               "opponent": "",
-              "extra_time": "-",
-              "penalty": "-"
+              "extra_time": "",
+              "penalty": ""
             }
           ]
         }
