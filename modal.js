@@ -1,10 +1,10 @@
-import { yearSelected, SelectedYear } from './index.js';
+import { yearSelected, SelectedYear, selectedLanguage } from './index.js';
 
 const openModal = document.querySelector(".open-modal");
 
 const divGames = document.querySelector('.divGames');
 
-function fetchCampaignData(selectedYear) {
+function fetchCampaignData(selectedYear, selectedLanguage) {
 fetch("campaign.json")
   .then(response => response.json())
   .then(data => {
@@ -15,6 +15,11 @@ fetch("campaign.json")
         let boxgame = document.createElement('div');
 
         divGames.appendChild(boxgame);
+
+      /*if(selectedLanguage === "pt-BR"){
+      } else  if(selectedLanguage === "en-UK"){
+        <h3 class="match">${campaign.round_UK}</h3>           
+      }*/
 
         boxgame.innerHTML = `
             <h3 class="match">${campaign.round}</h3>
