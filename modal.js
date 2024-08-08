@@ -16,13 +16,8 @@ fetch("campaign.json")
 
         divGames.appendChild(boxgame);
 
-      /*if(selectedLanguage === "pt-BR"){
-      } else  if(selectedLanguage === "en-UK"){
-        <h3 class="match">${campaign.round_UK}</h3>           
-      }*/
-
         boxgame.innerHTML = `
-            <h3 class="match">${campaign.round}</h3>
+            <h3 class="match">${selectedLanguage === "pt-BR" ? campaign.round : campaign.round_UK}</h3>
             <h4 class="match">
                 <img class="flag-modal" src="src/icones/${campaign.champion}.png" class"flag-campaign" alt="imagem seleção ${campaign.champion}"/>
                 <span class="goals">${campaign.goals_champions}</span>
@@ -43,6 +38,6 @@ fetch("campaign.json")
     const modalId = openModal.getAttribute('data-modal');
     const modal = document.getElementById('modal-champion');
     modal.showModal();
-    fetchCampaignData(SelectedYear);
+    fetchCampaignData(SelectedYear, selectedLanguage);
   });
   
