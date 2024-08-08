@@ -5,6 +5,9 @@ const openModal = document.querySelector(".open-modal");
 const divGames = document.querySelector('.divGames');
 
 function fetchCampaignData(selectedYear, selectedLanguage) {
+
+  console.log(selectedLanguage);
+
 fetch("campaign.json")
   .then(response => response.json())
   .then(data => {
@@ -17,7 +20,7 @@ fetch("campaign.json")
         divGames.appendChild(boxgame);
 
         boxgame.innerHTML = `
-            <h3 class="match">${selectedLanguage === "pt-BR" ? campaign.round : campaign.round_UK}</h3>
+            <h3 class="match">${selectedLanguage === "Pt-BR" ? campaign.round : campaign.round_UK}</h3>
             <h4 class="match">
                 <img class="flag-modal" src="src/icones/${campaign.champion}.png" class"flag-campaign" alt="imagem seleção ${campaign.champion}"/>
                 <span class="goals">${campaign.goals_champions}</span>
