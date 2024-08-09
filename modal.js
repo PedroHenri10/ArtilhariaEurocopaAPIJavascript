@@ -1,4 +1,5 @@
 import { yearSelected, SelectedYear, selectedLanguage } from './index.js';
+import { updateLanguage } from './language.js';
 
 const openModal = document.querySelector(".open-modal");
 
@@ -40,7 +41,11 @@ fetch("campaign.json")
   openModal.addEventListener("click", () => {
     const modalId = openModal.getAttribute('data-modal');
     const modal = document.getElementById('modal-champion');
+
+    updateLanguage();
+
     modal.showModal();
-    fetchCampaignData(SelectedYear, selectedLanguage);
+
+    fetchCampaignData(SelectedYear, selectedLanguage); 
   });
   
