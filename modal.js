@@ -7,7 +7,7 @@ const divGames = document.querySelector('.divGames');
 
 function fetchCampaignData(selectedYear, selectedLanguage) {
 
-  console.log(selectedLanguage);
+ /* console.log(selectedLanguage);*/
 
 fetch("campaign.json")
   .then(response => response.json())

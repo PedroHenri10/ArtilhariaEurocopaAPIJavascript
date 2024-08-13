@@ -14,6 +14,7 @@ let bgModal = document.querySelector('dialog');
 
 const languageSelect = document.getElementById("language-select");
 let selectedLanguage = languageSelect.value;
+console.log(selectedLanguage);
 let flagLanguage = document.querySelector(".flag");
 const edition = document.querySelector(".label-edicao");
 const player = document.querySelector(".title-header th:nth-child(2)");
